@@ -1,7 +1,4 @@
-#include <iostream>
-#include <math.h>
-#include <cmath>
-#include <cstdlib>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -45,5 +42,5 @@ int main()
 
      cout<<"The intrinsic value of the option is" ;
 
-     cout<<(sp*(1/sqrt(2*3.14159265))*pow(2.71828182,-(delta1*delta1)/2))-(pow(2.71828182,-r*time)*stp*(1/sqrt(2*3.14159265))*pow(2.71828182,-(delta2*delta2)/2)) ;
+     cout<<(sp*(1/sqrt(2*3.14159265))*pow(2.71828182,-(delta1*delta1)/2))-(pow(2.71828182,-r*time)*stp*(1/sqrt(2*3.14159265))*pow(2.71828182,-(delta2*delta2)/2))<<endl ;
 }
